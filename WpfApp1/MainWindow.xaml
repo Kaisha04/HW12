@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Button Content="+" x:Name="Addition" HorizontalAlignment="Left" Height="31" Margin="95,248,0,0" VerticalAlignment="Top" Width="74" Click="Addition_Click"/>
+        <Button Content="-" x:Name="Subtraction" HorizontalAlignment="Left" Height="31" Margin="225,248,0,0" VerticalAlignment="Top" Width="74" Click="Subtraction_Click"/>
+        <Button Content="*" x:Name="Multiplication" HorizontalAlignment="Left" Height="31" Margin="95,298,0,0" VerticalAlignment="Top" Width="74" Click="Multiplication_Click"/>
+        <Button Content="/" x:Name="Division" HorizontalAlignment="Left" Height="31" Margin="225,298,0,0" VerticalAlignment="Top" Width="74" Click="Division_Click"/>
+        <TextBox HorizontalAlignment="Left" x:Name="textbox" Margin="132,188,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+    </Grid>
+</Window>

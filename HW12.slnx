@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Task2/Task2.csproj" />
   <Project Path="Task3/Task3.csproj" />
+  <Project Path="WpfApp1/Task4.csproj" Id="e42c286d-70df-4c0f-8a74-72609278b638" />
 </Solution>
